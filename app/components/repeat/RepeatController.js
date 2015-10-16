@@ -17,6 +17,7 @@ function RepeatController(){
   
   this.getCartCount = function(){
     //return the length of our cart
+    return cart.length;
   };
   
   /*
@@ -25,6 +26,9 @@ function RepeatController(){
   * this function should return the total cost
   * of each item that is in our cart
   */ 
+  this.calculateCartTotal = function(){
+    return 
+  }
   
   
   this.removeItemFromCart = function(item){
